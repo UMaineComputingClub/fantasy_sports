@@ -10,6 +10,7 @@ const HomePage = () => {
             {
         <div className="body">
             <section>
+            <h1>Home</h1>
                 <div className="box">
                     <Link to= "/other">
                     <p>"Hello World"</p>

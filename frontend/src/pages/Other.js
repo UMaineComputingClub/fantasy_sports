@@ -9,9 +9,14 @@ const Other = () => {
         <div>
             <h1>Other page</h1>
             <Link to="/home">
-            <p>Sub text</p>
+            <p>Back to home</p>
+            </Link>
+
+            <Link to="/new">
+            <p>New Page</p>
             </Link>
         </div>
+
       );
 };
 export default Other;
