@@ -19,6 +19,9 @@ function App() {
               <Link to="/other">Other</Link>
             </li>
             <li>
+                  <Link to="/testIsrak">test</Link>
+            </li>
+            <li>
               <Link to="/arius">AriusPage</Link>
             </li>
           </ul>
