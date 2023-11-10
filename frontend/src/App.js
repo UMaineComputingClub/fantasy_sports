@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage.js';
 import Other from './pages/Other.js';
+import AriusPage from './pages/AriusPage.js';
 
 function App() {
   return (
@@ -18,7 +19,10 @@ function App() {
               <Link to="/other">Other</Link>
             </li>
             <li>
-              <Link to="/testIsrak">test</Link>
+                  <Link to="/testIsrak">test</Link>
+            </li>
+            <li>
+              <Link to="/arius">AriusPage</Link>
             </li>
           </ul>
         </nav>
@@ -27,6 +31,7 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/other" element={<Other />} />
+          <Route path="/arius" element={<AriusPage />} />
         </Routes>
       </BrowserRouter>
     </div>
