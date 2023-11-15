@@ -8,9 +8,9 @@ const TestIsrak = () => {
     <div className="TestPageBody">
       <div className="TestPage">
         <h2>Welcome to the Test Page!</h2>
-        <p>😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁</p>
+        <p>😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁</p>
         <Link to= "/home">
-              <p>"Let's go home"</p>
+              <p>"Go to home"</p>
               </Link>
         <ul>
           <li>
