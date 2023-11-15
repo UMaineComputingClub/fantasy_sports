@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage.js';
 import Other from './pages/Other.js';
 import AriusPage from './pages/AriusPage.js';
+import TestIsrak from './pages/TestIsrak.js';
 
 function App() {
   return (
@@ -19,10 +20,10 @@ function App() {
               <Link to="/other">Other</Link>
             </li>
             <li>
-                  <Link to="/testIsrak">test</Link>
+              <Link to="/arius">AriusPage</Link>
             </li>
             <li>
-              <Link to="/arius">AriusPage</Link>
+              <Link to="/TestIsrak">TestIsrak</Link> 
             </li>
           </ul>
         </nav>
@@ -32,6 +33,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/other" element={<Other />} />
           <Route path="/arius" element={<AriusPage />} />
+          <Route path="/TestIsrak" element={<TestIsrak />} />
         </Routes>
       </BrowserRouter>
     </div>

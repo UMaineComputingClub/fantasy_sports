@@ -1,25 +1,31 @@
-import React from "react";
-import '../css/testIsrak.css';
+import React from 'react';
+import '../css/TestIsrak.css';
 import { Link } from 'react-router-dom';
 
-const testIsrak = () => {
-    return (
-        <div className= "body"> { }
-            {
-        <div className="body">
-            <section>
-                <div> 
-                    <h1> Hello world</h1>
-                </div>
-            <h1>Home</h1>
-                <div className="box">
-                    <Link to= "/other">
-                    <p>It's something</p>
-                    </Link>
-                </div>
-            </section>
-            </div>
-            }
-        </div>
-      );
+
+const TestIsrak = () => {
+  return (
+    <div className="TestPageBody">
+      <div className="TestPage">
+        <h2>Welcome to the Test Page!</h2>
+        <p>😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁</p>
+        <Link to= "/home">
+              <p>"Let's go home"</p>
+              </Link>
+        <ul>
+          <li>
+            <a href="/other">Go to Other</a>
+          </li>
+          <li>
+            <a href="/testIsrak">Go to testIsrak</a>
+          </li>
+          <li>
+            <a href="/arius">Go to AriusPage</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 };
+
+export default TestIsrak;
