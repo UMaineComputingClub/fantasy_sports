@@ -1,4 +1,4 @@
-div.TestPage {
+body {
   margin:auto;
   background-color: rgb(29, 152, 140);
   background-image: url('/public/images/grin.png');

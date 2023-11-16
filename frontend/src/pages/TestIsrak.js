@@ -8,7 +8,7 @@ const TestIsrak = () => {
     <div className="TestPageBody">
       <div className="TestPage">
         <h2>Welcome to the Test Page!</h2>
-        <p>😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁😁</p>
+
         <Link to= "/home">
               <p>"Go to home"</p>
               </Link>
