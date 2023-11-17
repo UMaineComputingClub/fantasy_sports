@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 
 const TestIsrak = () => {
   return (
-    <div className="TestPageBody">
       <div className="TestPage">
         <h2>Welcome to the Test Page!</h2>
 
@@ -24,7 +23,6 @@ const TestIsrak = () => {
           </li>
         </ul>
       </div>
-    </div>
   );
 };
 
