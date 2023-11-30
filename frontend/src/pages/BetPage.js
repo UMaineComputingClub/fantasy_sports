@@ -1,13 +1,13 @@
 import React from "react";
-import '../css/AriusPage.css';
+import '../css/BetPage.css';
 import { Link } from 'react-router-dom';
-import logo from '../ariusimg.png'
+//import logo from '../ariusimg.png'
 
-const AriusPage = () => {
+const BetPage = () => {
     return (
         <div>
-            <h1>Arius' Page:</h1>
-            <img src={logo} alt="Logo" />;
+            <h1>Bet Page:</h1>
+            //<img src={logo} alt="Logo" />;
             
             <Link to= "/other">
             <p>"Back to other"</p>
@@ -22,4 +22,4 @@ const AriusPage = () => {
     );
 
 };
-export default AriusPage;
+export default BetPage;
