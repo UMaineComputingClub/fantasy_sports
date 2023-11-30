@@ -3,8 +3,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage.js';
 import Other from './pages/Other.js';
-import AriusPage from './pages/BetPage.js';
-import TestIsrak from './pages/TestIsrak.js';
+import BetPage from './pages/BetPage.js';
+import testIsrak from './pages/testIsrak.js';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           <Route path="/other" element={<Other />} />
           <Route path="/bet" element={<BetPage />} />
-          <Route path="/TestIsrak" element={<TestIsrak />} />
+          <Route path="/testIsrak" element={<testIsrak />} />
         </Routes>
       </BrowserRouter>
     </div>
