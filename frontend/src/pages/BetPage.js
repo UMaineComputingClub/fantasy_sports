@@ -17,17 +17,17 @@ const BetPage = () => {
             }
             </div>
 
-            <div className= "teamName1"> { }
+            <div className= "team1Name"> { }
             {
-                <div className="teamName1">
+                <div className="team1Name">
                     <h3>Team 1</h3>
                 </div>
             }
             </div>
 
-            <div className= "teamLogo"> { }
+            <div className= "team1Logo"> { }
             {
-                <div className="teamLogo">
+                <div className="team1Logo">
                     <img src={logo} alt="Logo" />;
                 </div>
             }
