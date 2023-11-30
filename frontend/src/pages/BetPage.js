@@ -6,18 +6,33 @@ import logo from '../ariusimg.png'
 const BetPage = () => {
     return (
         <div>
-            <h1>Bet Page:</h1>
-            <img src={logo} alt="Logo" />;
-            
-            <Link to= "/other">
-            <p>"Back to other"</p>
-            </Link>
+            <h1></h1>
+            <h1></h1>
 
-            <Link to= "/home">
-            <p>"Let's go home"</p>
-            </Link>
+            <div className= "header"> { }
+            {
+                <div className="header">
+                    <h1>Bet Page:</h1>
+                </div>
+            }
+            </div>
 
-            <p className = "body">He He He Ha</p>
+            <div className= "teamName1"> { }
+            {
+                <div className="teamName1">
+                    <h3>Team 1</h3>
+                </div>
+            }
+            </div>
+
+            <div className= "teamLogo"> { }
+            {
+                <div className="teamLogo">
+                    <img src={logo} alt="Logo" />;
+                </div>
+            }
+            </div>
+
         </div>
     );
 
